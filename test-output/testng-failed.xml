@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Salesforce_Test_Scenario]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Opportunity(failed)">
+    <classes>
+      <class name="Test.Opportunity_Scenario">
+        <methods>
+          <include name="Quote_created_tab"/>
+          <include name="AutoPopulate_Contact"/>
+          <include name="Contract_Lost"/>
+          <include name="suiteTearDown"/>
+          <include name="Closed_won"/>
+          <include name="Quote_created_PDF"/>
+          <include name="suiteSetUp"/>
+          <include name="TotalTime"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Test.Opportunity_Scenario -->
+    </classes>
+  </test> <!-- Opportunity(failed) -->
+</suite> <!-- Failed suite [Salesforce_Test_Scenario] -->

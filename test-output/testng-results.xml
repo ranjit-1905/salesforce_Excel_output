@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="21" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-01T16:52:17 IST" name="Salesforce_Test_Scenario" finished-at="2023-12-01T16:58:18 IST" duration-ms="361736">
+    <groups>
+    </groups>
+    <test started-at="2023-12-01T16:52:17 IST" name="Lead" finished-at="2023-12-01T16:54:11 IST" duration-ms="114532">
+      <class name="Test.Lead_Scenario">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.Lead_Scenario@1e4f4a5c]" started-at="2023-12-01T16:52:17 IST" name="setup" finished-at="2023-12-01T16:52:20 IST" duration-ms="3460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login_Salesforce_page()[pri:0, instance:Test.Lead_Scenario@1e4f4a5c]" started-at="2023-12-01T16:52:20 IST" name="Login_Salesforce_page" finished-at="2023-12-01T16:52:27 IST" duration-ms="7319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Salesforce_page -->
+        <test-method signature="Homepage()[pri:1, instance:Test.Lead_Scenario@1e4f4a5c]" started-at="2023-12-01T16:52:27 IST" name="Homepage" finished-at="2023-12-01T16:52:35 IST" duration-ms="7062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+        <test-method signature="Lead_LastName_Commpany()[pri:2, instance:Test.Lead_Scenario@1e4f4a5c]" started-at="2023-12-01T16:52:35 IST" name="Lead_LastName_Commpany" finished-at="2023-12-01T16:53:01 IST" duration-ms="26772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lead_LastName_Commpany -->
+        <test-method signature="Validate_the_field()[pri:3, instance:Test.Lead_Scenario@1e4f4a5c]" started-at="2023-12-01T16:53:01 IST" name="Validate_the_field" finished-at="2023-12-01T16:53:10 IST" duration-ms="8323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_the_field -->
+        <test-method signature="AnnualRevenue()[pri:4, instance:Test.Lead_Scenario@1e4f4a5c]" started-at="2023-12-01T16:53:10 IST" name="AnnualRevenue" finished-at="2023-12-01T16:53:25 IST" duration-ms="15615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AnnualRevenue -->
+        <test-method signature="LeadConversion()[pri:5, instance:Test.Lead_Scenario@1e4f4a5c]" started-at="2023-12-01T16:53:25 IST" name="LeadConversion" finished-at="2023-12-01T16:53:30 IST" duration-ms="5279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeadConversion -->
+        <test-method signature="LeadStauts()[pri:6, instance:Test.Lead_Scenario@1e4f4a5c]" started-at="2023-12-01T16:53:31 IST" name="LeadStauts" finished-at="2023-12-01T16:53:49 IST" duration-ms="18548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeadStauts -->
+        <test-method signature="Account_OpportunityCreation()[pri:7, instance:Test.Lead_Scenario@1e4f4a5c]" started-at="2023-12-01T16:53:49 IST" name="Account_OpportunityCreation" finished-at="2023-12-01T16:54:10 IST" duration-ms="21332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Account_OpportunityCreation -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:Test.Lead_Scenario@1e4f4a5c]" started-at="2023-12-01T16:54:10 IST" name="suiteTearDown" finished-at="2023-12-01T16:54:11 IST" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- Test.Lead_Scenario -->
+    </test> <!-- Lead -->
+    <test started-at="2023-12-01T16:54:13 IST" name="Account" finished-at="2023-12-01T16:55:38 IST" duration-ms="84383">
+      <class name="Test.Account_Scenario">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.Account_Scenario@2ad48653]" started-at="2023-12-01T16:54:13 IST" name="setup" finished-at="2023-12-01T16:54:18 IST" duration-ms="4768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login_Salesforce_page()[pri:0, instance:Test.Account_Scenario@2ad48653]" started-at="2023-12-01T16:54:18 IST" name="Login_Salesforce_page" finished-at="2023-12-01T16:54:26 IST" duration-ms="7679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Salesforce_page -->
+        <test-method signature="Homepage()[pri:1, instance:Test.Account_Scenario@2ad48653]" started-at="2023-12-01T16:54:26 IST" name="Homepage" finished-at="2023-12-01T16:54:33 IST" duration-ms="7274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+        <test-method signature="Account_Layouts()[pri:2, instance:Test.Account_Scenario@2ad48653]" started-at="2023-12-01T16:54:33 IST" name="Account_Layouts" finished-at="2023-12-01T16:54:56 IST" duration-ms="22636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Account_Layouts -->
+        <test-method signature="ShippingAddress_checkbox()[pri:3, instance:Test.Account_Scenario@2ad48653]" started-at="2023-12-01T16:54:56 IST" name="ShippingAddress_checkbox" finished-at="2023-12-01T16:55:14 IST" duration-ms="18227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShippingAddress_checkbox -->
+        <test-method signature="Address_compare()[pri:4, instance:Test.Account_Scenario@2ad48653]" started-at="2023-12-01T16:55:14 IST" name="Address_compare" finished-at="2023-12-01T16:55:22 IST" duration-ms="7441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Address_compare -->
+        <test-method signature="Dependency_Filed()[pri:5, instance:Test.Account_Scenario@2ad48653]" started-at="2023-12-01T16:55:22 IST" name="Dependency_Filed" finished-at="2023-12-01T16:55:37 IST" duration-ms="15968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dependency_Filed -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:Test.Account_Scenario@2ad48653]" started-at="2023-12-01T16:55:37 IST" name="suiteTearDown" finished-at="2023-12-01T16:55:38 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- Test.Account_Scenario -->
+    </test> <!-- Account -->
+    <test started-at="2023-12-01T16:55:38 IST" name="Opportunity" finished-at="2023-12-01T16:58:18 IST" duration-ms="160420">
+      <class name="Test.Account_Scenario">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:Test.Account_Scenario@2ad48653]" started-at="2023-12-01T16:52:17 IST" name="suiteSetUp" finished-at="2023-12-01T16:52:17 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method is-config="true" signature="TotalTime()[pri:0, instance:Test.Account_Scenario@2ad48653]" started-at="2023-12-01T16:58:18 IST" name="TotalTime" finished-at="2023-12-01T16:58:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TotalTime -->
+      </class> <!-- Test.Account_Scenario -->
+      <class name="Test.Opportunity_Scenario">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:52:17 IST" name="suiteSetUp" finished-at="2023-12-01T16:52:17 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:55:38 IST" name="setup" finished-at="2023-12-01T16:55:42 IST" duration-ms="4448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login_Salesforce_page()[pri:0, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:55:42 IST" name="Login_Salesforce_page" finished-at="2023-12-01T16:55:49 IST" duration-ms="6649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Salesforce_page -->
+        <test-method signature="Homepage()[pri:1, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:55:49 IST" name="Homepage" finished-at="2023-12-01T16:55:57 IST" duration-ms="7532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+        <test-method signature="Opportunity_Layouts()[pri:2, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:55:57 IST" name="Opportunity_Layouts" finished-at="2023-12-01T16:56:15 IST" duration-ms="18097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Opportunity_Layouts -->
+        <test-method signature="Opportunity_Date_Field_Type()[pri:3, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:56:15 IST" name="Opportunity_Date_Field_Type" finished-at="2023-12-01T16:56:22 IST" duration-ms="7168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Opportunity_Date_Field_Type -->
+        <test-method signature="AutopopulateAnnualRevenue()[pri:4, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:56:22 IST" name="AutopopulateAnnualRevenue" finished-at="2023-12-01T16:56:34 IST" duration-ms="12638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AutopopulateAnnualRevenue -->
+        <test-method signature="Qualification_NewTask()[pri:5, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:56:34 IST" name="Qualification_NewTask" finished-at="2023-12-01T16:56:53 IST" duration-ms="18774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Qualification_NewTask -->
+        <test-method signature="AutoPopulate_Contact()[pri:6, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:56:53 IST" name="AutoPopulate_Contact" finished-at="2023-12-01T16:57:04 IST" duration-ms="10568" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at Test.Opportunity_Scenario.AutoPopulate_Contact(Opportunity_Scenario.java:188)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AutoPopulate_Contact -->
+        <test-method signature="Quote_created_tab()[pri:7, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:57:04 IST" name="Quote_created_tab" finished-at="2023-12-01T16:57:20 IST" duration-ms="15802" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at Test.Opportunity_Scenario.Quote_created_tab(Opportunity_Scenario.java:207)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quote_created_tab -->
+        <test-method signature="Quote_created_PDF()[pri:8, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:57:20 IST" name="Quote_created_PDF" finished-at="2023-12-01T16:57:25 IST" duration-ms="5056" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at Test.Opportunity_Scenario.Quote_created_PDF(Opportunity_Scenario.java:225)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quote_created_PDF -->
+        <test-method signature="Closed_won()[pri:9, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:57:25 IST" name="Closed_won" finished-at="2023-12-01T16:57:33 IST" duration-ms="8610" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at Test.Opportunity_Scenario.Closed_won(Opportunity_Scenario.java:244)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closed_won -->
+        <test-method signature="Contract_Created()[pri:10, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:57:33 IST" name="Contract_Created" finished-at="2023-12-01T16:58:02 IST" duration-ms="28604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contract_Created -->
+        <test-method signature="Contract_Lost()[pri:11, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:58:02 IST" name="Contract_Lost" finished-at="2023-12-01T16:58:18 IST" duration-ms="16051" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at Test.Opportunity_Scenario.Contract_Lost(Opportunity_Scenario.java:281)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contract_Lost -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:58:18 IST" name="suiteTearDown" finished-at="2023-12-01T16:58:18 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+        <test-method is-config="true" signature="TotalTime()[pri:0, instance:Test.Opportunity_Scenario@68746f22]" started-at="2023-12-01T16:58:18 IST" name="TotalTime" finished-at="2023-12-01T16:58:23 IST" duration-ms="5004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TotalTime -->
+      </class> <!-- Test.Opportunity_Scenario -->
+      <class name="Test.Lead_Scenario">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:Test.Lead_Scenario@1e4f4a5c]" started-at="2023-12-01T16:52:16 IST" name="suiteSetUp" finished-at="2023-12-01T16:52:17 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method is-config="true" signature="TotalTime()[pri:0, instance:Test.Lead_Scenario@1e4f4a5c]" started-at="2023-12-01T16:58:18 IST" name="TotalTime" finished-at="2023-12-01T16:58:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TotalTime -->
+      </class> <!-- Test.Lead_Scenario -->
+    </test> <!-- Opportunity -->
+  </suite> <!-- Salesforce_Test_Scenario -->
+</testng-results>

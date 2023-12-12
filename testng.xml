@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+<suite thread-count="1" verbose="1" name="Salesforce_Test_Scenario" annotations="JDK" parallel="tests">
+         
+  <test name="Lead">
+	 <classes>
+	   <class name="Test.Lead_Scenario"/>
+	 </classes>
+   </test>
+     <test name="Account">
+     <classes>
+       <class name="Test.Account_Scenario"/>
+     </classes>
+   </test>
+   <test name="Opportunity">
+     <classes>
+        <class name="Test.Opportunity_Scenario"/>
+     </classes>
+   </test>
+</suite>

@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Salesforce_Test_Scenario" class="navigator-link">
+              <span class="suite-name border-failed">Salesforce_Test_Scenario</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Salesforce_Test_Scenario" class="navigator-link ">
+                    <span>C:\Users\ranjith.raghavan\eclipse-workspace\SalesforceTestScenario\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Salesforce_Test_Scenario" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Salesforce_Test_Scenario" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Salesforce_Test_Scenario" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Salesforce_Test_Scenario" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Salesforce_Test_Scenario" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Salesforce_Test_Scenario" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods, 5 failed,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Salesforce_Test_Scenario" class="hide-methods failed suite-Salesforce_Test_Scenario"> (hide)</a> <!-- hide-methods failed suite-Salesforce_Test_Scenario -->
+                      <a href="#" panel-name="suite-Salesforce_Test_Scenario" class="show-methods failed suite-Salesforce_Test_Scenario"> (show)</a> <!-- show-methods failed suite-Salesforce_Test_Scenario -->
+                    </span>
+                    <div class="method-list-content failed suite-Salesforce_Test_Scenario">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Opportunity_Scenario" class="method navigator-link" hash-for-method="AutoPopulate_Contact">AutoPopulate_Contact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Opportunity_Scenario" class="method navigator-link" hash-for-method="Closed_won">Closed_won</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Opportunity_Scenario" class="method navigator-link" hash-for-method="Contract_Lost">Contract_Lost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Opportunity_Scenario" class="method navigator-link" hash-for-method="Quote_created_PDF">Quote_created_PDF</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Opportunity_Scenario" class="method navigator-link" hash-for-method="Quote_created_tab">Quote_created_tab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Salesforce_Test_Scenario -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Salesforce_Test_Scenario" class="hide-methods passed suite-Salesforce_Test_Scenario"> (hide)</a> <!-- hide-methods passed suite-Salesforce_Test_Scenario -->
+                      <a href="#" panel-name="suite-Salesforce_Test_Scenario" class="show-methods passed suite-Salesforce_Test_Scenario"> (show)</a> <!-- show-methods passed suite-Salesforce_Test_Scenario -->
+                    </span>
+                    <div class="method-list-content passed suite-Salesforce_Test_Scenario">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Account_Scenario" class="method navigator-link" hash-for-method="Account_Layouts">Account_Layouts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Lead_Scenario" class="method navigator-link" hash-for-method="Account_OpportunityCreation">Account_OpportunityCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Account_Scenario" class="method navigator-link" hash-for-method="Address_compare">Address_compare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Lead_Scenario" class="method navigator-link" hash-for-method="AnnualRevenue">AnnualRevenue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Opportunity_Scenario" class="method navigator-link" hash-for-method="AutopopulateAnnualRevenue">AutopopulateAnnualRevenue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Opportunity_Scenario" class="method navigator-link" hash-for-method="Contract_Created">Contract_Created</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Account_Scenario" class="method navigator-link" hash-for-method="Dependency_Filed">Dependency_Filed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Lead_Scenario" class="method navigator-link" hash-for-method="Homepage">Homepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Account_Scenario" class="method navigator-link" hash-for-method="Homepage">Homepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Opportunity_Scenario" class="method navigator-link" hash-for-method="Homepage">Homepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Lead_Scenario" class="method navigator-link" hash-for-method="LeadConversion">LeadConversion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Lead_Scenario" class="method navigator-link" hash-for-method="LeadStauts">LeadStauts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Lead_Scenario" class="method navigator-link" hash-for-method="Lead_LastName_Commpany">Lead_LastName_Commpany</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Lead_Scenario" class="method navigator-link" hash-for-method="Login_Salesforce_page">Login_Salesforce_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Account_Scenario" class="method navigator-link" hash-for-method="Login_Salesforce_page">Login_Salesforce_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Opportunity_Scenario" class="method navigator-link" hash-for-method="Login_Salesforce_page">Login_Salesforce_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Opportunity_Scenario" class="method navigator-link" hash-for-method="Opportunity_Date_Field_Type">Opportunity_Date_Field_Type</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Opportunity_Scenario" class="method navigator-link" hash-for-method="Opportunity_Layouts">Opportunity_Layouts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Opportunity_Scenario" class="method navigator-link" hash-for-method="Qualification_NewTask">Qualification_NewTask</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Account_Scenario" class="method navigator-link" hash-for-method="ShippingAddress_checkbox">ShippingAddress_checkbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Test_Scenario" title="Test.Lead_Scenario" class="method navigator-link" hash-for-method="Validate_the_field">Validate_the_field</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Salesforce_Test_Scenario -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Salesforce_Test_Scenario" class="panel Salesforce_Test_Scenario">
+          <div class="suite-Salesforce_Test_Scenario-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test.Opportunity_Scenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AutoPopulate_Contact">
+                  </a> <!-- AutoPopulate_Contact -->
+                  <span class="method-name">AutoPopulate_Contact</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at Test.Opportunity_Scenario.AutoPopulate_Contact(Opportunity_Scenario.java:188)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Closed_won">
+                  </a> <!-- Closed_won -->
+                  <span class="method-name">Closed_won</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at Test.Opportunity_Scenario.Closed_won(Opportunity_Scenario.java:244)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contract_Lost">
+                  </a> <!-- Contract_Lost -->
+                  <span class="method-name">Contract_Lost</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at Test.Opportunity_Scenario.Contract_Lost(Opportunity_Scenario.java:281)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Quote_created_PDF">
+                  </a> <!-- Quote_created_PDF -->
+                  <span class="method-name">Quote_created_PDF</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at Test.Opportunity_Scenario.Quote_created_PDF(Opportunity_Scenario.java:225)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Quote_created_tab">
+                  </a> <!-- Quote_created_tab -->
+                  <span class="method-name">Quote_created_tab</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at Test.Opportunity_Scenario.Quote_created_tab(Opportunity_Scenario.java:207)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Salesforce_Test_Scenario-class-failed -->
+          <div class="suite-Salesforce_Test_Scenario-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.Opportunity_Scenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AutopopulateAnnualRevenue">
+                  </a> <!-- AutopopulateAnnualRevenue -->
+                  <span class="method-name">AutopopulateAnnualRevenue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contract_Created">
+                  </a> <!-- Contract_Created -->
+                  <span class="method-name">Contract_Created</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Homepage">
+                  </a> <!-- Homepage -->
+                  <span class="method-name">Homepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Salesforce_page">
+                  </a> <!-- Login_Salesforce_page -->
+                  <span class="method-name">Login_Salesforce_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Opportunity_Date_Field_Type">
+                  </a> <!-- Opportunity_Date_Field_Type -->
+                  <span class="method-name">Opportunity_Date_Field_Type</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Opportunity_Layouts">
+                  </a> <!-- Opportunity_Layouts -->
+                  <span class="method-name">Opportunity_Layouts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Qualification_NewTask">
+                  </a> <!-- Qualification_NewTask -->
+                  <span class="method-name">Qualification_NewTask</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Salesforce_Test_Scenario-class-passed -->
+          <div class="suite-Salesforce_Test_Scenario-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.Account_Scenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Account_Layouts">
+                  </a> <!-- Account_Layouts -->
+                  <span class="method-name">Account_Layouts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Address_compare">
+                  </a> <!-- Address_compare -->
+                  <span class="method-name">Address_compare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Dependency_Filed">
+                  </a> <!-- Dependency_Filed -->
+                  <span class="method-name">Dependency_Filed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Homepage">
+                  </a> <!-- Homepage -->
+                  <span class="method-name">Homepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Salesforce_page">
+                  </a> <!-- Login_Salesforce_page -->
+                  <span class="method-name">Login_Salesforce_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShippingAddress_checkbox">
+                  </a> <!-- ShippingAddress_checkbox -->
+                  <span class="method-name">ShippingAddress_checkbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Salesforce_Test_Scenario-class-passed -->
+          <div class="suite-Salesforce_Test_Scenario-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.Lead_Scenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Account_OpportunityCreation">
+                  </a> <!-- Account_OpportunityCreation -->
+                  <span class="method-name">Account_OpportunityCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AnnualRevenue">
+                  </a> <!-- AnnualRevenue -->
+                  <span class="method-name">AnnualRevenue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Homepage">
+                  </a> <!-- Homepage -->
+                  <span class="method-name">Homepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LeadConversion">
+                  </a> <!-- LeadConversion -->
+                  <span class="method-name">LeadConversion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LeadStauts">
+                  </a> <!-- LeadStauts -->
+                  <span class="method-name">LeadStauts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Lead_LastName_Commpany">
+                  </a> <!-- Lead_LastName_Commpany -->
+                  <span class="method-name">Lead_LastName_Commpany</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Salesforce_page">
+                  </a> <!-- Login_Salesforce_page -->
+                  <span class="method-name">Login_Salesforce_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_the_field">
+                  </a> <!-- Validate_the_field -->
+                  <span class="method-name">Validate_the_field</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Salesforce_Test_Scenario-class-passed -->
+        </div> <!-- panel Salesforce_Test_Scenario -->
+        <div panel-name="test-xml-Salesforce_Test_Scenario" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ranjith.raghavan\eclipse-workspace\SalesforceTestScenario\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Salesforce_Test_Scenario&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Lead&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.Lead_Scenario&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Lead --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Account&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.Account_Scenario&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Account --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Opportunity&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.Opportunity_Scenario&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Opportunity --&gt;
+&lt;/suite&gt; &lt;!-- Salesforce_Test_Scenario --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Salesforce_Test_Scenario" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Salesforce_Test_Scenario</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Lead (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Account (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Opportunity (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Salesforce_Test_Scenario" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Salesforce_Test_Scenario</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Salesforce_Test_Scenario" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Salesforce_Test_Scenario</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Salesforce_Test_Scenario');
+function tableData_Salesforce_Test_Scenario() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Contract_Created')
+data.setCell(0, 2, 'Test.Opportunity_Scenario')
+data.setCell(0, 3, 28604);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Lead_LastName_Commpany')
+data.setCell(1, 2, 'Test.Lead_Scenario')
+data.setCell(1, 3, 26772);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Account_Layouts')
+data.setCell(2, 2, 'Test.Account_Scenario')
+data.setCell(2, 3, 22636);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Account_OpportunityCreation')
+data.setCell(3, 2, 'Test.Lead_Scenario')
+data.setCell(3, 3, 21332);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Qualification_NewTask')
+data.setCell(4, 2, 'Test.Opportunity_Scenario')
+data.setCell(4, 3, 18774);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LeadStauts')
+data.setCell(5, 2, 'Test.Lead_Scenario')
+data.setCell(5, 3, 18548);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ShippingAddress_checkbox')
+data.setCell(6, 2, 'Test.Account_Scenario')
+data.setCell(6, 3, 18227);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Opportunity_Layouts')
+data.setCell(7, 2, 'Test.Opportunity_Scenario')
+data.setCell(7, 3, 18097);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Contract_Lost')
+data.setCell(8, 2, 'Test.Opportunity_Scenario')
+data.setCell(8, 3, 16051);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Dependency_Filed')
+data.setCell(9, 2, 'Test.Account_Scenario')
+data.setCell(9, 3, 15968);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Quote_created_tab')
+data.setCell(10, 2, 'Test.Opportunity_Scenario')
+data.setCell(10, 3, 15802);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'AnnualRevenue')
+data.setCell(11, 2, 'Test.Lead_Scenario')
+data.setCell(11, 3, 15615);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'AutopopulateAnnualRevenue')
+data.setCell(12, 2, 'Test.Opportunity_Scenario')
+data.setCell(12, 3, 12638);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'AutoPopulate_Contact')
+data.setCell(13, 2, 'Test.Opportunity_Scenario')
+data.setCell(13, 3, 10568);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Closed_won')
+data.setCell(14, 2, 'Test.Opportunity_Scenario')
+data.setCell(14, 3, 8610);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Validate_the_field')
+data.setCell(15, 2, 'Test.Lead_Scenario')
+data.setCell(15, 3, 8323);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Login_Salesforce_page')
+data.setCell(16, 2, 'Test.Account_Scenario')
+data.setCell(16, 3, 7679);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Homepage')
+data.setCell(17, 2, 'Test.Opportunity_Scenario')
+data.setCell(17, 3, 7532);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Address_compare')
+data.setCell(18, 2, 'Test.Account_Scenario')
+data.setCell(18, 3, 7441);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Login_Salesforce_page')
+data.setCell(19, 2, 'Test.Lead_Scenario')
+data.setCell(19, 3, 7319);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Homepage')
+data.setCell(20, 2, 'Test.Account_Scenario')
+data.setCell(20, 3, 7274);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Opportunity_Date_Field_Type')
+data.setCell(21, 2, 'Test.Opportunity_Scenario')
+data.setCell(21, 3, 7168);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Homepage')
+data.setCell(22, 2, 'Test.Lead_Scenario')
+data.setCell(22, 3, 7062);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Login_Salesforce_page')
+data.setCell(23, 2, 'Test.Opportunity_Scenario')
+data.setCell(23, 3, 6649);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'LeadConversion')
+data.setCell(24, 2, 'Test.Lead_Scenario')
+data.setCell(24, 3, 5279);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Quote_created_PDF')
+data.setCell(25, 2, 'Test.Opportunity_Scenario')
+data.setCell(25, 3, 5056);
+window.suiteTableData['Salesforce_Test_Scenario']= { tableData: data, tableDiv: 'times-div-Salesforce_Test_Scenario'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Salesforce_Test_Scenario">
+              </div> <!-- times-div-Salesforce_Test_Scenario -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Salesforce_Test_Scenario" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Salesforce_Test_Scenario</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Salesforce_Test_Scenario" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Salesforce_Test_Scenario" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Lead_Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">suiteSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Account_Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">suiteSetUp</span>
+                <span class="method-start">415 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Opportunity_Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">suiteSetUp</span>
+                <span class="method-start">439 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Lead_Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">480 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Login_Salesforce_page</span>
+                <span class="method-start">3967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Homepage</span>
+                <span class="method-start">11290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Lead_LastName_Commpany</span>
+                <span class="method-start">18354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validate_the_field</span>
+                <span class="method-start">45127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AnnualRevenue</span>
+                <span class="method-start">53451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LeadConversion</span>
+                <span class="method-start">69068 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LeadStauts</span>
+                <span class="method-start">74349 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Account_OpportunityCreation</span>
+                <span class="method-start">92900 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">suiteTearDown</span>
+                <span class="method-start">114235 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Account_Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">117340 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Login_Salesforce_page</span>
+                <span class="method-start">122108 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Homepage</span>
+                <span class="method-start">129789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Account_Layouts</span>
+                <span class="method-start">137067 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ShippingAddress_checkbox</span>
+                <span class="method-start">159705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Address_compare</span>
+                <span class="method-start">177934 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Dependency_Filed</span>
+                <span class="method-start">185376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">suiteTearDown</span>
+                <span class="method-start">201345 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Opportunity_Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">201787 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Login_Salesforce_page</span>
+                <span class="method-start">206236 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Homepage</span>
+                <span class="method-start">212887 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Opportunity_Layouts</span>
+                <span class="method-start">220422 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Opportunity_Date_Field_Type</span>
+                <span class="method-start">238520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AutopopulateAnnualRevenue</span>
+                <span class="method-start">245690 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Qualification_NewTask</span>
+                <span class="method-start">258330 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AutoPopulate_Contact</span>
+                <span class="method-start">277105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Quote_created_tab</span>
+                <span class="method-start">287676 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Quote_created_PDF</span>
+                <span class="method-start">303482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Closed_won</span>
+                <span class="method-start">308540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Contract_Created</span>
+                <span class="method-start">317152 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Contract_Lost</span>
+                <span class="method-start">345757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">suiteTearDown</span>
+                <span class="method-start">361809 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Lead_Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">TotalTime</span>
+                <span class="method-start">362304 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Opportunity_Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">TotalTime</span>
+                <span class="method-start">362306 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Account_Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">TotalTime</span>
+                <span class="method-start">362306 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
